@@ -1,0 +1,133 @@
+ 1)-> First test case
+ 
+ Field               		Description
+ 
+ Test Case ID      			TC_01    
+                                                                                                 
+ Test Case Title    		Verify login
+ 
+ Module             		Login      
+                                                                                                   
+ Preconditions      		User registered
+ 
+ Test Steps          		1. Enter credentials
+							2. Click Login
+ 							
+ Test Data          		User – bank01  
+ 							                                           
+ Expected Result 			Login successful
+ 
+ Actual Result   			Logged in       
+ 
+ Status        				Pass
+ 
+ Remark           			Login working          
+ 
+ 
+ 
+ 2)-> Second Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_02    
+                                                                                                 
+ Test Case Title    		Verify balance enquiry
+ 
+ Module             		Account     
+                                                                                                   
+ Preconditions      		User logged in
+ 
+ Test Steps          		1. Click Balance Enquiry
+ 							
+ Test Data          		N/A
+ 							                                           
+ Expected Result 			Balance shown
+ 
+ Actual Result   			Balance displayed
+ 
+ Status        				Pass
+ 
+ Remark           			Balance correct
+ 
+ 
+ 
+ 
+ 3)-> Third Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_03    
+                                                                                                 
+ Test Case Title    		Verify fund transfer
+ 
+ Module             		Fund Transfer 
+                                                                                                   
+ Preconditions      		Beneficiary added
+ 
+ Test Steps          		1. Enter amount
+							2. Click Transfer
+ 							
+ Test Data          		Amount – ₹2000
+ 							                                           
+ Expected Result 			Transfer successful
+ 
+ Actual Result   			Amount transferred
+ 
+ Status        				Pass
+ 
+ Remark           			Transfer works
+
+
+
+
+ 4)-> Fourth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_04    
+                                                                                                 
+ Test Case Title    		Verify insufficient balance
+ 
+ Module             		Fund Transfer
+                                                                                                   
+ Preconditions      		Low balance
+ 
+ Test Steps          		1. Enter high amount
+							2. Click Transfer
+ 							
+ Test Data          		Amount – ₹50,000
+ 							                                           
+ Expected Result 			Error message
+ 
+ Actual Result   			Error displayed
+ 
+ Status        				Pass
+ 
+ Remark           			Safety check ok
+ 
+ 
+ 
+ 
+  5)-> Fifth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_05    
+                                                                                                 
+ Test Case Title    		Verify logout
+ 
+ Module             		Logout     
+                                                                                                   
+ Preconditions      		User logged in
+ 
+ Test Steps          		1. Click Logout
+ 							
+ Test Data          		N/A
+ 							                                           
+ Expected Result 			User logged out
+ 
+ Actual Result   			Logged out
+ 
+ Status        				Pass
+ 
+ Remark           			Logout working

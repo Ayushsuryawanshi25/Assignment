@@ -1,0 +1,134 @@
+ 1)-> First test case
+ 
+ Field               		Description
+ 
+ Test Case ID      			TC_01    
+                                                                                                 
+ Test Case Title    		Verify user registration
+ 
+ Module             		Registration    
+                                                                                                   
+ Preconditions      		User not registered   
+ 
+ Test Steps          		1. Enter details
+							2. Click Register
+ 							
+ Test Data          		Email – test@gmail.com
+ 							                                           
+ Expected Result 			Registration successful
+ 
+ Actual Result   			Registered
+ 
+ Status        				Pass 
+ 
+ Remark           			Registration working        
+ 
+ 
+ 
+ 2)-> Second Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_02    
+                                                                                                 
+ Test Case Title    		Verify login
+ 
+ Module             		Login
+                                                                                                   
+ Preconditions      		User registered
+ 
+ Test Steps          		1. Enter credentials
+							2. Click Login
+ 							
+ Test Data          		User – test@gmail.com
+ 							                                           
+ Expected Result 			Login successful
+ 
+ Actual Result   			Logged in
+ 
+ Status        				Pass
+ 
+ Remark           			Login valid
+ 
+ 
+ 
+ 
+ 3)-> Third Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_03    
+                                                                                                 
+ Test Case Title    		Verify add to cart
+ 
+ Module             		Cart
+                                                                                                   
+ Preconditions      		User logged in
+ 
+ Test Steps          		1. Select product
+							2. Click Add to Cart
+ 							
+ Test Data          		Product – Mobile
+ 							                                           
+ Expected Result 			Product added
+ 
+ Actual Result   			Added
+ 
+ Status        				Pass
+ 
+ Remark           			Cart updated
+
+
+
+
+ 4)-> Fourth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_04    
+                                                                                                 
+ Test Case Title    		Verify checkout
+ 
+ Module             		Checkout
+                                                                                                   
+ Preconditions      		Cart not empty
+ 
+ Test Steps          		1. Click Checkout
+							2. Enter address
+ 							
+ Test Data          		Address – Indore
+ 							                                           
+ Expected Result 			Order placed
+ 
+ Actual Result   			Order placed
+ 
+ Status        				Pass
+ 
+ Remark           			Checkout works
+ 
+ 
+ 
+ 
+  5)-> Fifth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_05    
+                                                                                                 
+ Test Case Title    		Verify order history
+ 
+ Module             		Orders
+                                                                                                   
+ Preconditions      		Order placed
+ 
+ Test Steps          		1. Open Order History
+ 							
+ Test Data          		N/A
+ 							                                           
+ Expected Result 			Orders displayed
+ 
+ Actual Result   			Orders shown
+ 
+ Status        				Pass
+ 
+ Remark           			History correct

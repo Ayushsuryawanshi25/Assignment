@@ -1,0 +1,137 @@
+ 1)-> First test case
+ 
+ Field               		Description
+ 
+ Test Case ID      			TC_01    
+                                                                                                 
+ Test Case Title    		Verify login with invalid username and password 
+ 
+ Module             		Login      
+                                                                                                   
+ Preconditions      		User should be registered in CRM system                                                                      
+ Test Steps          		1. Open CRM Login page
+ 							2. Enter invalid username
+ 							3. Enter invalid password
+ 							4. Click on Login button 
+ 							
+ Test Data          		Username – [abc@crm.com](mailto:abc@crm.com)
+ 							Password – 12345  
+ 							                                           
+ Expected Result 			System should display error message “Invalid username or password”                                           
+ Actual Result   			Error message displayed                                                                                      
+ Status        				Pass                                                                                                         
+ Remark           			System does not allow invalid login          
+ 
+ 
+ 
+ 2)-> Second Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_02    
+                                                                                                 
+ Test Case Title    		Verify login with valid credentials
+ 
+ Module             		Login      
+                                                                                                   
+ Preconditions      		User should be registered system                                                                      
+ Test Steps          		1. Open login page
+							2. Enter valid username and password
+							3. Click Login
+ 							
+ Test Data          		Username – user@crm.com
+							Password – Pass@123  
+ 							                                           
+ Expected Result 			User should login successfully
+ 
+ Actual Result   			Login
+ 
+ Status        				Pass
+ 
+ Remark           			Valid login accepted  
+ 
+ 
+ 
+ 
+ 3)-> Third Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_03    
+                                                                                                 
+ Test Case Title    		Verify add new customer
+ 
+ Module             		Customer Management     
+                                                                                                   
+ Preconditions      		User logged in
+ 
+ Test Steps          		1. Click Add Customer
+							2. Enter customer details
+							3. Click Save
+ 							
+ Test Data          		Name – Rahul
+							Email – rahul@gmail.com
+ 							                                           
+ Expected Result 			Customer added successfully
+ 
+ Actual Result   			Customer added
+ 
+ Status        				Pass
+ 
+ Remark           			Add customer working 
+
+
+
+
+ 4)-> Fourth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_04    
+                                                                                                 
+ Test Case Title    		Verify update customer details
+ 
+ Module             		Customer Management     
+                                                                                                   
+ Preconditions      		Customer exists
+ 
+ Test Steps          		1. Search customer
+							2. Edit details
+							3. Click Update
+ 							
+ Test Data          		Phone – 987654321
+ 							                                           
+ Expected Result 			Customer details updated
+ 
+ Actual Result   			Details updated
+ 
+ Status        				Pass
+ 
+ Remark           			Update successful
+ 
+ 
+ 
+ 
+  5)-> Fifth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_05    
+                                                                                                 
+ Test Case Title    		Verify logout
+ 
+ Module             		Logout     
+                                                                                                   
+ Preconditions      		User logged in
+ 
+ Test Steps          		1. Click Logout
+ 							
+ Test Data          		N/A
+ 							                                           
+ Expected Result 			User logged out
+ 
+ Actual Result   			Logged out
+ 
+ Status        				Pass
+ 
+ Remark           			Logout working

@@ -1,0 +1,277 @@
+1) First Test Case
+
+ Field         				Description
+ 
+ Test Case ID      			TC_01    
+                                                                                                 
+ Test Case Title    		Verify appointment booking with valid details  
+                                                             
+ Module             		Appointment Management      
+                                                                                                   
+ Preconditions      		Patient should be registered  
+                                                                     
+ Test Steps          		1. Login to healthcare system
+							2. Select doctor
+							3. Select appointment date and time
+							4. Click on Book Appointment 
+ 							
+ Test Data          		Doctor – Dr. Sharma
+							Date – 25/02/2026
+							Time – 10:30 AM  
+ 							                                           
+ Expected Result 			Appointment should be booked successfully   
+                                         
+ Actual Result   			Appointment booked successfully                       
+                                                               
+ Status        				Pass                                     
+                                                                     
+ Remark           			Appointment module working fine     
+ 
+ 
+ 
+ 2) Second Test Case
+ 
+ Field               		Description                
+ 
+ Test Case ID      			TC_02    
+                                                                                                 
+ Test Case Title    		Verify appointment booking without selecting doctor 
+                                                             
+ Module             		Appointment Management      
+                                                                                                   
+ Preconditions      		Patient should be logged in
+                                                                     
+ Test Steps          		1. Login to healthcare system
+							2. Do not select doctor
+							3. Select date and time
+							4. Click Book Appointment
+ 							
+ Test Data          		Doctor = Not Selected
+ 							                                           
+ Expected Result 			System should display error message  
+                                         
+ Actual Result   			Error message displayed                      
+                                                               
+ Status        				Pass                                     
+                                                                     
+ Remark           			Doctor selection is mandatory
+ 
+ 
+ 
+ 
+ 3) Third Test Case    
+ 
+ Field               		Description 
+ 
+ Test Case ID      			TC_03    
+                                                                                                 
+ Test Case Title    		Verify patient login with valid credentials 
+                                                             
+ Module             		Login    
+                                                                                                   
+ Preconditions      		Patient should be registered
+                                                                     
+ Test Steps          		1. Open login page
+							2. Enter valid username and password
+							3. Click Login
+ 							
+ Test Data          		Username – patient01
+							Password – Pat@123
+ 							                                           
+ Expected Result 			Patient should login successfully
+                                         
+ Actual Result   			Patient logged in                      
+                                                               
+ Status        				Pass                                     
+                                                                     
+ Remark           			Login successful
+ 
+ 
+ 
+ 4) Fourth Test Case
+ 
+  Field               		Description 
+ 
+ Test Case ID      			TC_04    
+                                                                                                 
+ Test Case Title    		Verify appointment cancellation
+                                                             
+ Module             		Appointment Management  
+                                                                                                   
+ Preconditions      		Appointment should be booked
+                                                                     
+ Test Steps          		1. Login to healthcare system
+							2. Open My Appointments
+							3. Click Cancel Appointment
+ 							
+ Test Data          		Appointment ID = APPT102
+ 							                                           
+ Expected Result 			Appointment should be cancelled
+                                         
+ Actual Result   			Appointment cancelled                      
+                                                               
+ Status        				Pass                                     
+                                                                     
+ Remark           			Cancellation working properly
+ 
+ 
+ 
+ 5) Fifth Test Case
+ 
+ Field               		Description 
+ 
+ Test Case ID      			TC_05    
+                                                                                                 
+ Test Case Title    		Verify logout functionality
+                                                             
+ Module             		Logout 
+                                                                                                   
+ Preconditions      		Patient should be logged in
+                                                                     
+ Test Steps          		1. Click Logout button
+ 							
+ Test Data          		N/A
+ 							                                           
+ Expected Result 			Patient should be logged out
+                                         
+ Actual Result   			Patient logged out                      
+                                                               
+ Status        				Pass                                     
+                                                                     
+ Remark           			Logout successful
+ 
+ 
+  1)-> First test case
+ 
+ Field               		Description
+ 
+ Test Case ID      			TC_01    
+                                                                                                 
+ Test Case Title    		Verify user registration
+ 
+ Module             		Registration    
+                                                                                                   
+ Preconditions      		User not registered   
+ 
+ Test Steps          		1. Enter details
+							2. Click Register
+ 							
+ Test Data          		Email – test@gmail.com
+ 							                                           
+ Expected Result 			Registration successful
+ 
+ Actual Result   			Registered
+ 
+ Status        				Pass 
+ 
+ Remark           			Registration working        
+ 
+ 
+ 
+ 2)-> Second Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_02    
+                                                                                                 
+ Test Case Title    		Verify login
+ 
+ Module             		Login
+                                                                                                   
+ Preconditions      		User registered
+ 
+ Test Steps          		1. Enter credentials
+							2. Click Login
+ 							
+ Test Data          		User – test@gmail.com
+ 							                                           
+ Expected Result 			Login successful
+ 
+ Actual Result   			Logged in
+ 
+ Status        				Pass
+ 
+ Remark           			Login valid
+ 
+ 
+ 
+ 
+ 3)-> Third Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_03    
+                                                                                                 
+ Test Case Title    		Verify add to cart
+ 
+ Module             		Cart
+                                                                                                   
+ Preconditions      		User logged in
+ 
+ Test Steps          		1. Select product
+							2. Click Add to Cart
+ 							
+ Test Data          		Product – Mobile
+ 							                                           
+ Expected Result 			Product added
+ 
+ Actual Result   			Added
+ 
+ Status        				Pass
+ 
+ Remark           			Cart updated
+
+
+
+
+ 4)-> Fourth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_04    
+                                                                                                 
+ Test Case Title    		Verify checkout
+ 
+ Module             		Checkout
+                                                                                                   
+ Preconditions      		Cart not empty
+ 
+ Test Steps          		1. Click Checkout
+							2. Enter address
+ 							
+ Test Data          		Address – Indore
+ 							                                           
+ Expected Result 			Order placed
+ 
+ Actual Result   			Order placed
+ 
+ Status        				Pass
+ 
+ Remark           			Checkout works
+ 
+ 
+ 
+ 
+  5)-> Fifth Test Case
+ 
+  Field               		Description
+ 
+ Test Case ID      			TC_05    
+                                                                                                 
+ Test Case Title    		Verify order history
+ 
+ Module             		Orders
+                                                                                                   
+ Preconditions      		Order placed
+ 
+ Test Steps          		1. Open Order History
+ 							
+ Test Data          		N/A
+ 							                                           
+ Expected Result 			Orders displayed
+ 
+ Actual Result   			Orders shown
+ 
+ Status        				Pass
+ 
+ Remark           			History correct
