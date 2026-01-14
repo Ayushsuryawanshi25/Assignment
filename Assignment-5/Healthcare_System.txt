@@ -1,0 +1,126 @@
+1. Abstract 
+
+The Healthcare Management System is a Java-based web application designed to manage patient information, appointments, billing, and medical records digitally. Traditional healthcare systems rely heavily on paperwork, which leads to inefficiency, data loss, and errors. This project aims to digitize healthcare operations using Java technology and Agile methodology.
+
+
+2. Introduction
+
+2.1 Objective
+
+Healthcare systems manage patient data and medical services digitally.
+
+
+
+2.2 Problem Identification
+
+Manual record-keeping is inefficient and error-prone.
+
+
+
+2.3 Need of the Project
+
+To automate healthcare management and improve service quality.
+
+
+
+2.4 Project Scheduling
+
+Sprint-based Agile development.
+
+
+
+2.5 Objectives
+
+Digital patient records
+
+Efficient appointment management
+
+Accurate billing
+
+
+
+3. Software Requirement Specification
+3.1 Purpose
+
+To define requirements of the healthcare system.
+
+
+
+3.2 Scope
+
+Patient records, appointments, billing.
+
+
+
+3.3 Hardware / Software Requirements
+
+Hardware: PC, 4GB RAM
+
+Software: JDK, MySQL
+
+
+
+3.4 Tools
+
+Java, JDBC, MySQL
+
+
+
+3.5 Software Process Model
+
+Agile Model
+
+
+
+4. System Design
+4.1 Data Dictionary
+
+Patient_ID, Doctor_ID, Appointment_ID, Bill_ID
+
+4.2 ER Diagram
+
+
+4.3 Data Flow Diagram
+
+
+4.4 Diagrams
+
+Use Case Diagram, Class Diagram
+
+
+
+5. Implementation
+5.1 Program Code
+
+Developed using Java web technologies.
+
+
+
+5.2 Output Screens
+
+Patient Registration, Appointment Page
+
+
+
+
+6. Testing
+6.1 Test Data
+
+Sample patient records
+
+6.2 Test Result
+
+System performs accurately.
+
+
+
+7. Applications and Limitations
+
+Applications: Hospitals, clinics
+Limitations: Requires trained staff
+
+
+
+8. Conclusion and Future Enhancement
+
+The system improves healthcare efficiency. Future scope includes telemedicine.
