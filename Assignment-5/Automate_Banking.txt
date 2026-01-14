@@ -1,0 +1,112 @@
+1. Abstract
+
+The Automated Banking Website is a Java-based web application designed to provide online banking services such as balance inquiry, fund transfer, bill payments, and transaction history. Traditional banking systems require customers to visit bank branches for routine operations, leading to time consumption and inconvenience. This project aims to automate banking services using Java technology and Agile methodology.
+
+
+
+2. Introduction
+
+2.1 Objective
+
+Automated banking systems provide online access to banking services.
+
+
+
+2.2 Problem Identification
+
+Manual banking processes are time-consuming and inefficient.
+
+
+
+2.3 Need of the Project
+
+To automate banking services and improve customer convenience.
+
+
+
+2.4 Project Scheduling
+
+Agile-based development with sprint planning.
+
+
+
+2.5 Objectives
+
+Secure online banking
+
+Faster transactions
+
+Reduced manual work
+
+
+
+3. Software Requirement Specification
+3.1 Purpose
+
+To define requirements of the Java-based banking system.
+
+3.2 Scope
+
+Account management, transactions, reporting.
+
+3.3 Hardware / Software Requirements
+
+Hardware: PC, 4GB RAM
+
+Software: JDK, Tomcat, MySQL
+
+3.4 Tools
+
+Java, JSP, Servlets, JDBC, MySQL
+
+3.5 Software Process Model
+
+Agile Model
+
+4. System Design
+4.1 Data Dictionary
+
+Account_No, Customer_ID, Balance, Transaction_ID
+
+4.2 ER Diagram
+
+4.3 Data Flow Diagram
+
+4.4 Diagrams
+
+
+
+5. Implementation
+5.1 Program Code
+
+Implemented using secure Java modules.
+
+
+
+5.2 Output Screens
+
+Login, Dashboard, Fund Transfer Page
+
+
+
+6. Testing
+6.1 Test Data
+
+Sample bank accounts
+
+6.2 Test Result
+
+Secure and accurate transactions
+
+
+
+7. Applications and Limitations
+
+Applications: Online banking services
+Limitations: Cybersecurity risks
+
+
+
+8. Conclusion and Future Enhancement
+
+The system improves banking efficiency. Future scope includes biometric login.
