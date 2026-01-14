@@ -1,0 +1,123 @@
+1. Abstract
+
+The Travel Booking Platform is a web-based application developed using Java technology that enables users to search, book, and manage travel-related services such as flights, hotels, and travel packages. Traditional travel booking methods involve physical agents and manual processes, which are time-consuming and inconvenient. This project aims to provide a centralized online platform that simplifies travel planning and booking for users.
+
+
+2. Introduction
+
+2.1 Objective
+
+Travel booking platforms simplify the process of planning and booking trips online.
+
+
+2.2 Problem Identification
+
+Manual booking systems are slow, error-prone, and lack real-time updates.
+
+
+
+2.3 Need of the Project
+
+To provide a fast, reliable, and automated travel booking system.
+
+
+
+2.4 Project Scheduling
+
+The project is divided into Agile sprints of two weeks each.
+
+
+
+2.5 Objectives
+
+Online travel booking
+
+Secure payment processing
+
+Real-time availability
+
+
+
+3. Software Requirement Specification
+3.1 Purpose
+
+To define the requirements of the Java-based travel booking system.
+
+
+
+3.2 Scope
+
+Flight booking, hotel booking, payment management.
+
+
+
+
+3.3 Hardware / Software Requirements
+
+Hardware: PC, 4GB RAM
+
+Software: JDK, MySQL
+
+
+
+3.4 Tools
+
+Java, JSP, Servlets, JDBC, MySQL, Eclipse
+
+
+3.5 Software Process Model
+
+Agile Model
+
+
+
+4. System Design
+4.1 Data Dictionary
+
+User_ID, Booking_ID, Travel_Date, Payment_Status
+
+4.2 ER Diagram
+
+4.3 Data Flow Diagram
+
+4.4 Diagrams
+
+
+
+5. Implementation
+
+5.1 Program Code
+
+Implemented using Java web technologies.
+
+
+
+5.2 Output Screens
+
+Search Page, Booking Page, Payment Page
+
+
+
+6. Testing
+6.1 Test Data
+
+Sample travel bookings
+
+
+
+6.2 Test Result
+
+All modules executed successfully.
+
+
+
+7. Applications and Limitations
+
+Applications: Online travel agencies
+Limitations: Internet dependency
+
+
+
+8. Conclusion and Future Enhancement
+
+The system improves booking efficiency. Future scope includes mobile apps and AI features.
