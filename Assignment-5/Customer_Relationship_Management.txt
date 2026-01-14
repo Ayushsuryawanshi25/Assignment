@@ -1,0 +1,125 @@
+1. Abstract
+
+Customer Relationship Management (CRM) is an essential software system used by organizations to manage customer interactions, improve customer satisfaction, and enhance business growth. Traditional customer data management methods are often manual, time-consuming, and error-prone. To overcome these challenges, this project focuses on developing a CRM system using Java technology and the Agile software development methodology.
+
+
+
+2. Introduction
+
+2.1 Objective
+
+CRM software helps organizations manage customer data, sales, and communication effectively.
+
+
+2.2 Problem Identification
+
+Manual customer data handling leads to inefficiency and data inconsistency.
+
+
+
+2.3 Need of the Project
+
+To automate customer management using a secure Java-based system.
+
+
+
+2.4 Project Scheduling
+
+Project is divided into multiple Agile sprints of 2 weeks.
+
+
+
+2.5 Objectives
+
+Centralized customer data
+
+Improve sales tracking
+
+Generate reports
+
+
+
+3. Software Requirement Specification
+3.1 Purpose
+
+To define requirements of the Java-based CRM system.
+
+
+
+3.2 Scope
+
+Customer management, sales tracking, reporting.
+
+
+
+3.3 Hardware / Software Requirements
+
+Hardware: PC, 4GB RAM
+
+Software: Windows/Linux, JDK, MySQL, Apache Tomcat
+
+
+
+3.4 Tools
+
+Java, JSP, Servlets, JDBC, MySQL, Eclipse/IntelliJ
+
+
+
+3.5 Software Process Model
+
+Agile Model
+
+
+
+4. System Design
+
+4.1 Data Dictionary
+
+Customer_ID, Name, Email, Phone, Lead_Status
+
+
+
+4.2 ER Diagram
+
+
+4.3 Data Flow Diagram
+
+
+4.4 Diagrams
+
+
+
+5. Implementation
+5.1 Program Code
+
+Implemented using Java, JDBC.
+
+
+
+5.2 Output Screens
+
+Login, Dashboard, Customer Records
+
+
+
+6. Testing
+6.1 Test Data
+
+Sample customer entries
+
+6.2 Test Result
+
+All modules function correctly.
+
+
+7. Applications and Limitations
+
+Applications: Sales management, customer support
+Limitations: Requires internet connection
+
+
+
+8. Conclusion and Future Enhancement
+
+The Java-based CRM system improves efficiency. Future enhancements include Spring Boot and cloud deployment.
