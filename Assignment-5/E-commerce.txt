@@ -1,0 +1,125 @@
+1. Abstract 
+
+The Online E-Commerce Website is a web-based application developed using Java technology that enables users to buy and sell products over the internet. Traditional shopping methods require physical presence, limited working hours, and manual billing processes, which can be inconvenient for customers. This project aims to overcome these limitations by providing an automated, secure, and user-friendly e-commerce platform.
+
+
+
+2. Introduction
+
+2.1 Objective
+
+E-commerce websites provide an online platform for buying and selling products efficiently.
+
+
+
+2.2 Problem Identification
+
+Traditional shopping is time-consuming and lacks convenience and automation.
+
+
+
+2.3 Need of the Project
+
+To provide a fast, secure, and automated online shopping system.
+
+
+
+2.4 Project Scheduling
+
+The project is developed using Agile methodology with 2-week sprints.
+
+
+
+2.5 Objectives
+
+Online product sales
+
+Secure payment processing
+
+Efficient order management
+
+
+
+3. Software Requirement Specification
+3.1 Purpose
+
+To define requirements of the Java-based e-commerce system.
+
+
+3.2 Scope
+
+Product management, cart, payment, order tracking.
+
+
+
+3.3 Hardware / Software Requirements
+
+Hardware: PC, 4GB RAM
+
+Software: JDK, Apache Tomcat, MySQL, Browser
+
+
+
+3.4 Tools
+
+Java, JSP, Servlets, JDBC, MySQL, Eclipse/IntelliJ
+
+
+
+3.5 Software Process Model
+
+Agile Model
+
+
+
+
+4. System Design
+4.1 Data Dictionary
+
+User_ID, Product_ID, Order_ID, Price, Quantity
+
+4.2 ER Diagram
+
+4.3 Data Flow Diagram
+
+4.4 Diagrams
+
+
+
+5. Implementation
+5.1 Program Code
+
+Implemented using Java web technologies.
+
+
+
+5.2 Output Screens
+
+Home Page, Product List, Cart, Payment Page
+
+
+
+6. Testing
+6.1 Test Data
+
+Sample products and user accounts
+
+
+
+6.2 Test Result
+
+All modules work correctly.
+
+
+
+
+7. Applications and Limitations
+
+Applications: Online retail stores
+Limitations: Requires internet connectivity
+
+
+
+8. Conclusion and Future Enhancement
+
+The system provides a reliable online shopping solution. Future enhancements include AI recommendations and mobile apps.
